@@ -1,0 +1,95 @@
+body {
+    background: url("https://wallpaperscraft.com/image/dark_spots_texture_background_50355_1600x1200.jpg");
+    background-size: cover;
+    font-family: "Nanum Brush Script", cursive;
+    width: 100vw;
+  }
+  
+  h2 {
+    color: black;
+    font-size: 16vh;
+    margin-top: 2px;
+    margin-bottom: 12px;  
+    display: inline-block;
+  }
+  h2:hover{
+    cursor: pointer;
+    color: black;
+    text-shadow: black;
+  }
+  .box {
+    height: 200px;
+    width: 500px;
+    font-size: larger;
+    text-align: center;
+  }
+  
+  .bottom {
+    border-bottom: groove 1vh ivory;
+  }
+  
+  .right {
+    border-right: groove 1vh ivory;  
+  }
+  
+  #choosePlayer, #chooseGame {
+    border: green;
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  p1 {
+    color: black;
+    
+   
+  }
+  
+  p2, a {
+    color: black;
+   
+  }
+  
+  p3 {
+    font-size: xx-large;  
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+  }
+  
+  p3:hover {
+    cursor: pointer;
+    text-shadow: black;  
+  }
+  
+  p4 {
+    font-size: 0.6em;  
+    margin-left: 0.6em;
+    margin-right: 0.6em;  
+  }
+  
+  p4:hover {
+    cursor: pointer;
+    text-shadow: black;  
+  }
+  
+  #winBox, #loseBox, #player0wins, #playerXwins {
+    border: dotted 1vh snow;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  
+  .tic:hover {
+    cursor: pointer;
+  }
+  
+  .ex {
+    color: black;
+   
+  }
+  
+  .oh {
+    color: red;
+   
+  }
